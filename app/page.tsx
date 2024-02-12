@@ -26,29 +26,52 @@ const getWeekdayName = (rawDate: string) => {
 const rawData = [
   [
     "monday",
-    "2/5/2024",
-    "17:30",
-    "Fusion Kraków",
-    "Teenage choir by NCC",
-    "instagram",
-    "fusionkrakow",
-    "Zygmunta Miłkowskiego 9",
-    "fusion",
-  ],
-  [
-    "wednesday",
-    "2/7/2024",
-    "19:00",
-    "English conversation night",
-    "Breakthrough",
+    "2/12/2024",
+    "18:00",
+    "Super Bowl Party",
+    "Super Bowl Monday",
     "instagram",
     "breakthroughkrakow",
-    "Wroclawska 8A",
+    "Wroclawska 8A/LU3",
     "breakthrough",
   ],
   [
+    "Wednesday",
+    "2/14/2024",
+    "19:00",
+    "Valentines Day Party",
+    "Fun night celebrating with Americans",
+    "instagram",
+    "breakthroughkrakow",
+    "Wroclawska 8A/LU3",
+    "breakthrough",
+  ],
+  [
+    "wednesday",
+    "2/14/2024",
+    "19:00",
+    "Walentynki w Środę Popielcową",
+    "Nauczanie",
+    "instagram",
+    "glosnapustyni",
+    "Balicka 214",
+    "glosnapustyni",
+  ],
+  [
+    "wednesday",
+    "2/14/2024",
+    "19:30",
+    "Over",
+    "Group for students (20 y.o.+)",
+    "instagram",
+    "over.krk",
+    "Berka Joselewicza 28",
+    "over",
+  ],
+
+  [
     "friday",
-    "2/9/2024",
+    "2/16/2024",
     "17:30",
     "TGIF Friday fellowship",
     "Krakow International Church",
@@ -59,10 +82,10 @@ const rawData = [
   ],
   [
     "friday",
-    "2/9/2024",
+    "2/16/2024",
     "18:30",
     "Youth group",
-    "By KDM for 12-18 y.o.",
+    "By KDM for 12-18 y.o",
     "instagram",
     "kdmkrakow",
     "Berka Joselewicza 28",
@@ -127,7 +150,7 @@ export default function Home() {
         <Header
           weekday="This week in Krakow"
           date={week}
-          events="6"
+          events="7"
           yellowtext="Week"
         />
         <div className="pt-10">
